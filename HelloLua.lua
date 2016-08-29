@@ -13,7 +13,7 @@ end
 print("(3^2+4^2)^0.5 is equal to " .. norm(3,4));
 
 function twice (x)
-	return 2*x;
+	return 2*x; 
 end
 
 print("twice of 7 is :", twice(7));
@@ -84,7 +84,7 @@ testTable = {
 	[31] = 12,
 }
 
-print(testTable.hello.."\r\n");
+print(testTable["hello"].."\r\n");
 print(testTable["sky"].."\r\n");
 print(testTable["who"].."\r\n");
 print(testTable["sea"].."\r\n");
